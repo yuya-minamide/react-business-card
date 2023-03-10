@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
   * {
     margin: 0;
     padding: 0;
@@ -19,7 +19,6 @@ export const GlobalStyle = createGlobalStyle`
     --color-gray:#DCDCDC;
     --color-dark-gray: #374151;
     --color-orange: #F3BF99;
-    --color-icon: #918E9B;
     --transition: all 400ms ease;
   }
   html {
@@ -29,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
     display: none;
   }
   body {
-    font-family: "Alegreya", serif;
+    font-family: 'Inter', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.5;
